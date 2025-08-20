@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "expo projeto",
+    "slug": "expo-projeto",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jansenokasaki.expoprojeto"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jansenokasaki.expoprojeto"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e22b323-a2f9-441c-99cd-29a1051415b1"
+      }
+    },
+    "owner": "jansenokasaki",
+    "updates": {
+      "url": "https://u.expo.dev/6e22b323-a2f9-441c-99cd-29a1051415b1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
